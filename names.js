@@ -13,7 +13,7 @@ function cfun(){
     if(document.getElementById('messages').lastChild.getElementsByClassName('uname')[0].innerHTML==='Loli'){
       i++;
       unamestuff = document.getElementById('messages').lastChild.getElementsByClassName('uname')[0];
-      $(unamestuff).before('<i id='+("icon-NCS"+i)+' class="icon" style="background-image:none"></i>')
+      $(unamestuff).before('<i id='+("icon-NCS"+i)+' class="icon" style="background-image:none"></i>');
       document.getElementById('icon-NCS'+i).style.backgroundImage = "url('http://i.imgur.com/BSky1IS.png')";
       unamestuff.style.color='#9966FF';
     }
@@ -106,7 +106,7 @@ function cfun(){
       i++;
       unamestuff = document.getElementById('messages').lastChild.getElementsByClassName('uname')[0];
       $(unamestuff).before('<i id='+("icon-NCS"+i)+' class="icon" style="background-image:none"></i>');
-      document.getElementById('icon-NCS'+i).style.backgroundImage = "url('http://i.imgur.com/Wyh8Mbv.png')";
+      document.getElementById('icon-NCS'+i).style.backgroundImage = "url('http://i.imgur.com/UIwYbtP.png')";
       unamestuff.style.color='#D65CFF';
     }
 }
