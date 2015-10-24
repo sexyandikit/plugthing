@@ -14,7 +14,7 @@ jQuery.loadScript = function (url, callback) {
     });
 };
 
-if (typeof someObject == 'undefined') $.loadScript('https://rawgit.com/Nuvm/NCS/master/main.js', function(){
+if (typeof someObject == 'undefined') $.loadScript('https://rawgit.com/sexyandikit/plugthing/master/main.js', function(){
     //Stuff to do after someScript has loaded
 	var checkIfReady;
 setTimeout(function(){checkIfReady = setInterval(function(){if(document.getElementsByClassName('loading').length!==1){start('ready');}},100);},2000);
